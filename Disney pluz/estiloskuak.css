@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background:linear-gradient(#060609, #151823);
+	position: relative;
+	float: left;
+	
+}
+		#logo, nav, #usuario{
+			position: relative;
+			float: left;
+			height: 100%;
+			cursor: pointer;
+		}
+		#logo{
+			width: 150px;
+			padding: 10px 25px;
+			box-sizing: border-box;
+		}
+			#logo>img{
+				height: 100%;
+
+			}
+		nav{
+			width: calc(100% - 350px);
+		}
+
+		ul{
+			height: 100%;
+			list-style: none;
+		}
+		li{
+			position: relative;
+			float: left;
+			padding-left: 20px;
+			padding-right: 20px;
+			box-sizing: border-box;
+			height: 100%;
+			line-height: 80px;
+			color: white;
+			text-transform: uppercase;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		li>img{
+			height: 16px;
+			filter: invert(100%);
+			margin-right: 5px;
+		}
+		#usuario{
+			width: 200px;
+			padding: 10px 20px;
+			box-sizing: border-box;
+		}
+			p{
+				color: white;
+				font-size: 16px;
+				position: relative;
+				float: left;
+				line-height: 60px;
+				margin-right: 15px;
+			}
+			#usuario-img{
+				height: 100%;
+				width: 60px;
+				border-radius: 50%;
+				position: relative;
+				float: left;
+				background-color: yellow;
+				overflow: hidden;
+
+			}
+			#usuario-img>img{
+				height: 100%;
+			}
+section{
+	width: 100%;
+	/*height: 100%;*/
+	background: #151823;
+	position: relative;
+	float: left;
+	
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	box-sizing: border-box;
+	
+}
+article,aside, #contenido{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+article{
+	width: 91% !important;
+	height: 350px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-left: 3%;
+	cursor: pointer;
+	
+}
+article>img{
+	height: 100%;
+	
+}
+aside{
+	height: 200px;
+	padding: 30px;
+	box-sizing: border-box;
+	
+}
+
+.temas{
+		width: 230px;
+		height: 90%;
+		background: #272934;
+		position: relative;
+		float: left;
+		margin-left: 18px; 
+		border-radius: 15px; 
+		border: 4px solid #3C3D46;
+		box-sizing: border-box;
+		text-align: center;
+		cursor: pointer;
+	}
+
+		.temas>img{ /*Solo afecta a la imagen dentro del tema*/
+			height: 100%;
+
+		}
+#contenido{
+	background: rgba(58, 60, 74,.1);
+	padding: 30px;
+	box-sizing: border-box;
+}
+.bloque{
+		height: 250px;
+		margin-bottom: 20px;
+}
+		.bloque>h3{
+			color: #FFF;
+			font-size: 24px;
+		}
+		.peliculas{
+			position: relative;
+			float: left;
+			width: 27%;
+			height: 200px;
+			margin-top: 10px;
+			overflow: hidden;
+			border-radius: 5px;
+			margin-left: -34px;
+			cursor: pointer;
+		}
+			.primero{
+				margin-left: 0px !important;
+			}
+			.peliculas>img{
+				height: 80%;
+			}
+/*div{
+	height: 800px;
+	background-color: green;
+}*/
