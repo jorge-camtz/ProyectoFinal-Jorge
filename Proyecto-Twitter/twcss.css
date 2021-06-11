@@ -1,0 +1,583 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    min-height: 665px;
+    width:  25%;
+	position: relative;
+	float: left;
+	
+}
+body{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+#options{
+    padding-left: 20%;
+}
+#logo{
+    height: 45px;
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 50%;
+    box-sizing: border-box;
+    position: relative;
+	float: left;
+	cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#logo>img{
+    height: 75%;
+}
+ul{
+    height: 100%;
+    list-style: none;
+}
+li{
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 12px;
+	color:black;
+}
+li>img{
+    position: relative;
+    float: left;
+    height: 30px;
+	color: black;
+    margin-right: 10px;
+    padding-right: 0% !important; 
+}
+#perfil>img{
+
+	border-radius: 50px;
+}
+#inicio{
+    padding-right: 30%;
+    
+}
+#msjs{
+    padding-right: 30%;
+}
+#masopt{
+    padding-right: 20%;
+}
+#lista{
+    padding-right: 20%;
+}
+#options>nav>ul>li>p{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#twittear{
+    position: relative;
+    float: left;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateX(-60%);
+    padding: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 17px;
+    background-color: rgba(29,161,242,1.00);
+    font-weight: 600;
+    border-radius: 50px;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+}
+#twittear1{
+    position: relative;
+    float: left;
+    right: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background-color: rgba(29,161,242,1.00);
+    font-weight: 600;
+    border-radius: 50px;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+    margin-left: 49%;
+}
+#feed{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 600px;
+}
+#inicio0{
+    position: static;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#inicio1{
+    position: relative;
+    float: left;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+}
+#inicioimg>img{
+    position: relative;
+    float: right;
+    width: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+#text1{
+    position: relative;
+    float: left;
+    height: 25px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 50%;
+    border-style: hidden;
+    font-size: larger;
+}
+#imgfeed>img{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    cursor: pointer;
+}
+#imgstweet{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-left-width: 1px;
+    border-bottom-width: 10px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    height: 140px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#medio1{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 5px;
+}
+#imgstweet>div>img{
+    position: relative;
+    float: left;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#imgns{
+    margin-left: 60px;
+}
+#fotoperfil{
+    position: relative;
+    float: left;
+    width: 15%;
+}
+#fotoperfil>img{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#feedprinc{
+    min-height: 1500px;
+    width: 600px;
+}
+#feedprinc>div{
+    position: relative;
+    float: left;
+    width: 99.7%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+#textofeed{
+    position: relative;
+    float: left;
+    width: 75%;
+    margin-top: 7px;
+}
+#textofeed>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#usuario9{
+    position: relative;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#arroba{
+    position: relative;
+    font-size: 16px;
+    padding-left: 17%;
+    cursor: pointer;
+}
+#abajo>img{
+    position: relative;
+    float: right;
+    width: 5%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#textofeed1{
+    position: relative;
+    float:left;
+    font-size: 15px;
+}
+#opt9{
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+#opt91{
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+#opt9>img{
+    width: 20px;
+    cursor: pointer;
+}
+#opt91>img{
+    width: 20px;
+    cursor: pointer;
+}
+#trends{
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+#trendsnew{
+    background-color: rgb(228, 228, 228);
+    border-style: hidden;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#trends>div>img{
+    position: relative;
+    float: left;
+    width: 30px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+#buscar{
+    width: 80%;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-style: hidden;
+    border-radius: 50px;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(228, 228, 228);
+}
+#trends0{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#trends1{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+#trends1>div>h1{
+    position: relative;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+#imgtrends1>img{
+    position: relative;
+    float: right;
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+#trends2{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+#trends2>p{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 30%;
+    color: gray;
+    font-weight: 600;
+}
+#trends2>h1{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#space{
+    position: relative;
+    float: left;
+    width: 92%;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+#space1{
+    position: relative;
+    float: left;
+    width: 70%;
+}
+#space>div>p{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+#space>div>h1{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+}
+#space>div>img{
+    position: relative;
+    float: right;
+    width: 30%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#space2{
+    width: 100% !important;
+}
+#trends3{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    cursor: pointer;
+}
+#trends3>p{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+#trends3trend{
+    margin-right: 50%;
+    padding-top: 10px;
+}
+#trends3>h1{
+    position: relative;
+    float: left;
+    margin-right: 50%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#trends4{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+#trends4>p{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 30%;
+    color: gray;
+    font-weight: 600;
+}
+#trends4>h1{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#cat{
+    position: relative;
+    float: left;
+    width: 92%;
+    margin: 10px;
+    border-radius: 20px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+#cat1{
+    position: relative;
+    float: left;
+    width: 70%;
+}
+#cat>div>p{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+#cat>div>h1{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+}
+#cat>div>img{
+    position: relative;
+    float: right;
+    width: 30%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#cat2{
+    width: 100% !important;
+}
+#trends5{
+    position: relative;
+    float: left;
+    width: 100%;
+    border-color: rgb(228, 228, 228);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    cursor: pointer;
+}
+#trends5>p{
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+#trends5trend{
+    margin-right: 50%;
+    padding-top: 10px;
+}
+#trends5>h1{
+    position: relative;
+    float: left;
+    margin-right: 50%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#trends6{
+    position: relative;
+    float: left;
+    color: rgba(29,161,242,1.00);
+    font-size: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
+#follow{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+}
+#follow>h2{
+    position: relative;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 80%;
+}
